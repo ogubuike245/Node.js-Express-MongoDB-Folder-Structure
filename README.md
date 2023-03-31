@@ -60,6 +60,14 @@ example of the structure in practice :
 
 - `package.json` and `package-lock.json`: Contain metadata and dependencies for the project.
 
+---
+
+The folder structure we have been discussing is an example of a `modular design pattern`.
+
+`Modular design patterns` involve organizing code into modules that can be easily maintained, tested, and reused. Each module handles a specific feature or functionality of the application, and can be developed and tested independently of other modules. This approach allows for better scalability and maintainability of the application.
+
+In our example, the folder structure is organized into modules based on functionality, such as controllers, middleware,services, models, and routes. Each module can be developed, tested, and deployed independently of the others. This makes it easier to make changes or updates to specific parts of the application without affecting the entire system.
+
 ## Usage
 
 COMING SOON
